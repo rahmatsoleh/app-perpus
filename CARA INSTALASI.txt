@@ -1,0 +1,27 @@
+Cara Konfigurasi Aplikasi Perpustakaan Berbasis Web
+
+1. Export Database yang berada pada directory database pada database dengan membuat database dengan nama app_perpus
+2. Lakukan Konfigurasi sebagai berikut
+ - pada file di directory application/config/config.php
+	$config['base_url] = 'http://localhost/appPerpus/' harus sama dengan server anda
+ 
+ - Lakukan konfigurasi database pada file di directory application/config/database.php sesuai database anda
+
+
+
+=== HALAMAN LOGIN ===
+
+Login sebagai level administrator
+username = admin
+password = admin
+
+Login sebagai level user
+username = user
+password = user
+
+
+Jika terjadi eror silahkan cek kesalahan pada eror anda. pastikan konfigurasi sudah sesuai.
+
+
+Jika ingin bertanya bisa via WA 085736004793 sertakan nama dan asal anda,
+
